@@ -1,14 +1,12 @@
-波德 :: 规格。新 做 | s |
+Pod::Spec.new do |s|
 
   s.name          =  “ 1502I ”
-  s.version       =  “ 0.1.2 ”
-  s.summary       =  “一个简单的瀑布流布局”
+  s.version       =  “ 1.0.0 ”
+  s.summary       =  “A Library for iOS to use for RSA encryptor.”
 
   s.homepage      =  “ https://github.com/mahzonghui/1502I ”
 
-  s.author        = { “ codingZero ” => “ yd13150@vip.qq.com ” }
-
-  s.platform      =  ：ios，“ 7.0 ”
+  s.author        = { “ 马中辉  ” => “ 1216838135@qq.com ” }
 
   s.source        = { ：git => “ https://github.com/mahzonghui/1502I.git ”，：tag => s.version}
 
@@ -17,4 +15,4 @@
 
   s.requires_arc =  true
 
-结束
+end
